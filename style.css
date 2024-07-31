@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Adamina&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+#titleMain{
+    color: white;
+    font-family: "Adamina", serif;
+    font-size: 50px;
+}
+#tileApresentation{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#titleMain2{
+    color: white;
+}
+body {
+    font-family: "Adamina", serif;
+    color: black;
+    padding-left:  50px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    background-color: white;
+    border-left: 180px solid #e6ccc8 ;
+    border-right: 180px solid #e6ccc8 ;
+}
+body h1{
+    font-family: "Aboreto", system-ui;
+    color: #f0a296;
+}
+
+img{
+    width: 230px; 
+    border-radius: 200px;
+    border: #f0a296;
+}
+#titleHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 10px;
+    background-color:#e6ccc8;
+    border: #f0a296;
+
+}
+nav {
+    gap: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color:#e6ccc8;
+    border: #f0a296;
+}
+html{
+    background-color: #e6ccc8;
+}
